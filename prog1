@@ -13,7 +13,7 @@ public class Cipher{
             }
         }
         System.out.println("Decrypting the message:");
-        System.out.print("original message:" + msg+"\n");Integer foundKey = getKeyByValue(hashMap, targetValue);
+        System.out.print("original message:" + msg+"\n");
         System.out.println("encrypted message:" + c);
         return c;
     }
