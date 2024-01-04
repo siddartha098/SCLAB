@@ -37,9 +37,9 @@ public class Cipher{
             list.put(""+n ,""+d);
             d = "";
         }
-        for(int i=1;i<=list.size();i++){
+        for(int i=list.size();i>=1;i--){
             String m = list.get(Integer.toString(i));
-            System.out.println(i+". "+m+"\n");
+            System.out.println(26-i+". "+m+"\n");
             
             if(msg == m){
                 System.out.println("key value is +"+i);
